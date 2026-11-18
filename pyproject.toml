@@ -19,3 +19,6 @@ dev = [
 
 [tool.uv.sources]
 approxcdf = { git = "https://www.github.com/david-cortes/approxcdf.git" }
+
+[project.scripts]
+fullrank = "fullrank.__main__:app"
